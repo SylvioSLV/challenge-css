@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+    margin: auto;
+    max-width: 1000px;
+    height: 1150px;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 100px 100px 1fr 100px ;
+    grid-gap: 10px;
+    grid-template-areas:
+    "a a a"
+    "b c e"
+    "b d e"
+    "f f f"
+}
+.a{
+ background-color: red;
+ grid-area: a;
+}
+
+.b{
+    background-color: green;
+    grid-area: b;
+}
+
+.c{
+    background-color: blue;
+    grid-area: c;
+}
+
+.d{
+    background-color: antiquewhite;
+    grid-area: d;
+}
+
+.e{
+    background-color: yellow;
+    grid-area: e;
+}
+
+.f{
+    background-color: rgb(0, 217, 255);
+    grid-area: f;
+}
